@@ -46,7 +46,7 @@ namespace Assignment02.Tests
                                     + "Status: " + "Active " + "StartDate: " + "08/05/2000 00.00.00 " 
                                     + "EndDate: " + "01/04/2022 00.00.00 " + "GraduationDate: " + "01/04/2022 00.00.00"; 
 
-            // Assert.Equal(expected,ImmutableStudent.ToString());
+            Assert.Equal(expected,ImmutableStudent.ToString());
             // Assert.True(ImmutableStudent.ToString().Equals(expected));
         } 
     }
