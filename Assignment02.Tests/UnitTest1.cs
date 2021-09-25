@@ -7,7 +7,7 @@ namespace Assignment02.Tests
     public class UnitTest1
     {
         [Fact]
-        public void Given_studentObject_returns_equal_properties_via_to_string_method()
+        public void Given_student_object_returns_equal_properties_via_to_string_method()
         {
             Student student = new Student 
             {
@@ -47,7 +47,6 @@ namespace Assignment02.Tests
                                     + "EndDate: " + "01/04/2022 00.00.00 " + "GraduationDate: " + "01/04/2022 00.00.00"; 
 
             Assert.Equal(expected,ImmutableStudent.ToString());
-            // Assert.True(ImmutableStudent.ToString().Equals(expected));
         } 
     }
 }
